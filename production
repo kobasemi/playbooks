@@ -1,0 +1,16 @@
+[xoops]
+
+[redmine]
+
+[gitbucket]
+
+[zabbix]
+
+[webservers:children]
+xoops
+redmine
+gitbucket
+zabbix
+
+[kobasemi:children]
+webservers
